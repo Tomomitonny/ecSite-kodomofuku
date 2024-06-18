@@ -22,7 +22,7 @@ function App() {
           <Header />
             <div className='justify-between max-w-screen-lg mx-auto min-h-[60vh]'>
               <Routes>
-                <Route path="" element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/checkout" element={<Checkout />} />
                 <Route path="/order-confirmation" element={<OrderConfirmation />} />
