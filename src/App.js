@@ -18,13 +18,13 @@ function App() {
   return (
     <div className='App'>
       <CartProvider>
-        <Router basename="/ecSite-kodomofuku/">
+        <Router basename="">
           <Header />
             <div className='justify-between max-w-screen-lg mx-auto min-h-[60vh]'>
               <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/cart" element={<Cart />} />
-                <Route path="/checkout" element={<Checkout />} />
+                <Route path="/ecSite-kodomofuku/" element={<Home />} />
+                <Route path="/ecSite-kodomofuku/cart" element={<Cart />} />
+                <Route path="/ecSite-kodomofuku/checkout" element={<Checkout />} />
                 <Route path="/order-confirmation" element={<OrderConfirmation />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="*" element={<NotFound />} />
