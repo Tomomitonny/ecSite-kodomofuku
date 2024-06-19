@@ -18,7 +18,7 @@ function App() {
   return (
     <div className='App'>
       <CartProvider>
-        <Router basename="">
+        <Router basename="/ecSite-kodomofuku">
           <Header />
             <div className='justify-between max-w-screen-lg mx-auto min-h-[60vh]'>
               <Routes>
