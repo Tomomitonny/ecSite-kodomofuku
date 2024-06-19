@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ecSite-kodomofuku/static/css/main.1ed0d507.css",
-    "main.js": "/ecSite-kodomofuku/static/js/main.eebcdef1.js",
+    "main.js": "/ecSite-kodomofuku/static/js/main.2cbd3006.js",
     "static/js/239.bb9b10c6.chunk.js": "/ecSite-kodomofuku/static/js/239.bb9b10c6.chunk.js",
     "static/js/213.c962013d.chunk.js": "/ecSite-kodomofuku/static/js/213.c962013d.chunk.js",
     "static/js/455.4964b5c6.chunk.js": "/ecSite-kodomofuku/static/js/455.4964b5c6.chunk.js",
@@ -28,7 +28,7 @@
     "static/media/goods_dish01.png": "/ecSite-kodomofuku/static/media/goods_dish01.80125528240833e00f6a.png",
     "index.html": "/ecSite-kodomofuku/index.html",
     "main.1ed0d507.css.map": "/ecSite-kodomofuku/static/css/main.1ed0d507.css.map",
-    "main.eebcdef1.js.map": "/ecSite-kodomofuku/static/js/main.eebcdef1.js.map",
+    "main.2cbd3006.js.map": "/ecSite-kodomofuku/static/js/main.2cbd3006.js.map",
     "239.bb9b10c6.chunk.js.map": "/ecSite-kodomofuku/static/js/239.bb9b10c6.chunk.js.map",
     "213.c962013d.chunk.js.map": "/ecSite-kodomofuku/static/js/213.c962013d.chunk.js.map",
     "455.4964b5c6.chunk.js.map": "/ecSite-kodomofuku/static/js/455.4964b5c6.chunk.js.map",
@@ -36,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.1ed0d507.css",
-    "static/js/main.eebcdef1.js"
+    "static/js/main.2cbd3006.js"
   ]
 }
