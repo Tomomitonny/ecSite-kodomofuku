@@ -43,13 +43,13 @@ const Header = () => {
     <header className="relative py-5 justify-between max-w-screen-xl mx-auto text-center">
       <div className="site-title">
         <h1>
-          <a href="/">
+          <Link to="/" className={getLinkClass('/')}>
             <img 
               src="sample_logo.png" 
               alt="サイトのロゴ" 
               className="mx-auto w-2/3 sm:w-1/3"
-            />
-          </a>
+              />
+          </Link>
         </h1>
       </div>
 
@@ -73,19 +73,19 @@ const Header = () => {
               </Link>
             </li>
             <li className="flex justify-center">
-              <a href="#" className={getLinkClass('#')}>
+              <Link to="/preparing" className={getLinkClass('#')}>
                 LOOK BOOK
-              </a>
+              </Link>
             </li>
             <li className="flex justify-center">
-              <a href="#" className={getLinkClass('#')}>
+              <Link to="/preparing" className={getLinkClass('#')}>
                 MEDIA
-              </a>
+              </Link>
             </li>
             <li className="flex justify-center">
-              <a href="#" className={getLinkClass('#')}>
+              <Link to="/preparing" className={getLinkClass('#')}>
                 EVENT
-              </a>
+              </Link>
             </li>
             <li className="flex justify-center">
               <Link to="/contact" className={getLinkClass('/contact')}>

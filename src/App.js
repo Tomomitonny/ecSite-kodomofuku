@@ -12,6 +12,7 @@ import OrderConfirmation from './component/OrderConfirmation';
 import Contact from './component/Contact';
 import Favorites from './component/Favorites';
 import TermsOfService from './component/TermsOfService';
+import PreparingPage from './component/PreparingPage';
 
 
 function App() {
@@ -27,9 +28,10 @@ function App() {
                 <Route path="/checkout" element={<Checkout />} />
                 <Route path="/order-confirmation" element={<OrderConfirmation />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="*" element={<NotFound />} />
                 <Route path="/favorites" element={<Favorites />} />
                 <Route path="/termsofservice" element={<TermsOfService />} />
+                <Route path="/preparing" element={<PreparingPage />} />
+                <Route path="*" element={<NotFound />} />
               </Routes>
             </div>
           <Footer />

@@ -1,4 +1,4 @@
-
+import { FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return(
@@ -6,7 +6,7 @@ function Footer() {
         <footer>
           <div className="flex sm:hidden block items-center flex-row justify-between max-w-screen-lg mx-24 py-5 font-thin">
           <a href="https://www.instagram.com/" target="_blank">
-            <img src="img/insta_icon.png" alt="" />
+            <FaInstagram /> 
           </a>
           <a href="">
             <p>ABOUT</p>
@@ -20,7 +20,7 @@ function Footer() {
 
             <div className="flex justify-between max-w-screen-lg mx-auto py-5 font-thin px-10">
               
-                <a href="https://www.instagram.com/" target="_blank"><img src="img/footer_icon.png" alt="" /></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="footer_icon.png" alt="" /></a>
               
               <div>
                 <p>MENU</p>
@@ -29,7 +29,7 @@ function Footer() {
                   <li>LOOK BOOK</li>
                   <li>EVENT</li>
                   <li>STORE</li>
-                  <li><img src="img/insta_icon.png" alt="" /></li>
+                  <li><FaInstagram /></li>
                 </ul>
               </div>
               <div>
