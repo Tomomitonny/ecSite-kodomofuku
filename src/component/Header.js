@@ -43,7 +43,7 @@ const Header = () => {
     <header className="relative py-5 justify-between max-w-screen-xl mx-auto text-center">
       <div className="site-title">
         <h1>
-          <Link to="/" className={getLinkClass('/')}>
+          <Link to="/">
             <img 
               src="sample_logo.png" 
               alt="サイトのロゴ" 
