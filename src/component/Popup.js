@@ -1,7 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
 import { CartContext } from "./CartContext";
-import { FaHeart } from "react-icons/fa";
-
 
 const convertNewlinesToBreaks = (text) => {
   return text.split('\n').map((line, index) => (
@@ -11,7 +9,6 @@ const convertNewlinesToBreaks = (text) => {
     </React.Fragment>
   ));
 };
-
 
 const Popup = ({ item, onClose }) => {
   const { addItem } = useContext(CartContext);
@@ -52,9 +49,20 @@ const Popup = ({ item, onClose }) => {
     }
     setIsFavorite(!isFavorite);
   };
+
+  const handleBackgroundClick = (e) => {
+    if (e.target.id === "popup-background") {
+      onClose();
+    }
+  };
+
   return (
-    <div className="fixed py-8 inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div className="bg-white rounded-lg max-w-2xl w-11/12 md:w-1/2 overflow-y-auto max-h-full pb-20">
+    <div
+      id="popup-background"
+      className="fixed py-8 inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+      onClick={handleBackgroundClick}
+    >
+      <div className="bg-white rounded-lg max-w-2xl w-11/12 md:w-1/2 overflow-y-auto max-h-full pb-20" onClick={(e) => e.stopPropagation()}>
         <img src={item.img} alt={item.title} className="w-full object-cover rounded-t-md" />
         <div className="p-6 font-extralight">
           <h2 className="text-2xl font-light mt-4">{item.title}</h2>

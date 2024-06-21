@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <>
       {/* <h1 className="text-center mt-3">All Items</h1> */}
-      <div className="flex justify-center mt-4 border-b border-gray-800">
+      <div className="flex justify-center mt-4 border-b border-gray-800 mx-auto">
         <button
           className={`px-4 py-2 mx-2 rounded-t-lg ${activeTab === "all" ? "bg-gray-800 text-white" : "bg-gray-200 text-black"}`}
           onClick={() => handleTabClick("all")}
@@ -42,8 +42,8 @@ const Home = () => {
           Goods
         </button>
       </div>
-      <section className="py-4 mx-auto max-w-7xl min-w-5xl md:w-5/6">
-        <div className="grid grid-cols-1 gap-5 lg:grid-cols-4 sm:grid-cols-2">
+      <section className="py-4 mx-auto max-w-7xl min-w-5xl w-5/6">
+        <div className="grid gap-5 md:grid-cols-4 grid-cols-2 mx-auto">
           {filteredItems.map((item, index) => (
             <Itemcard 
               img={item.img} 
